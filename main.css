@@ -1,2 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("./assets/fonts/SF-UI-Text-Regular.otf");
+  font-family: "SF Pro Text Light";
+  src: url("./assets/fonts/SF-UI-Display-Ultralight.otf");
+}
+
+.menu {
+  font-family: "SF Pro Text";
+}
 /*# sourceMappingURL=main.css.map */
