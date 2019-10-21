@@ -1,9 +1,11 @@
-@font-face{    
+@font-face {
     font-family: "SF Pro Text";
     src: url("./assets/fonts/SF-UI-Text-Regular.otf");
     font-family: "SF Pro Text Light";
     src: url("./assets/fonts/SF-UI-Display-Ultralight.otf")
 }
+
 @import "./styles/normalize";
 @import "./styles/variables";
 @import "./styles/header";
+@import "./styles/font";

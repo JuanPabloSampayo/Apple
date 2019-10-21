@@ -2,35 +2,39 @@
   font-family: "SF Pro Text";
   src: url("./assets/fonts/SF-UI-Text-Regular.otf");
   font-family: "SF Pro Text Light";
-  src: url("./assets/fonts/SF-UI-Display-Ultralight.otf");
-}
-
+  src: url("./assets/fonts/SF-UI-Display-Ultralight.otf"); }
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 header {
   background-color: #2F2F2F;
   font-family: "SF Pro Text";
-  font-size: 24px;
-}
+  font-size: 24px; }
+  header img {
+    width: 25px;
+    height: auto; }
+  header ul {
+    text-transform: capitalize; }
+  header li a {
+    text-decoration: none;
+    color: #FFFFFF; }
+    header li a .menu {
+      font-family: "SF Pro Text"; }
 
-header img {
-  width: 25px;
-  height: auto;
-}
+form {
+  margin: 10px;
+  background-color: #2F2F2F;
+  width: 20%; }
+  form div input {
+    display: flexbox;
+    margin: 10px;
+    background-color: #FBF4F3;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    color: #2F2F2F; }
 
-header ul {
-  text-transform: capitalize;
-}
+.textarea {
+  height: 100px; }
 
-header li a {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-header li a .menu {
-  font-family: "SF Pro Text";
-}
 /*# sourceMappingURL=main.css.map */
