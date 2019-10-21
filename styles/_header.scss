@@ -32,6 +32,8 @@
 }
 
 .header li a {
+  font-family: $primary-font;
+  font-weight: 500;
   list-style: none ;
   color: #b8aeae;
   display: block;
