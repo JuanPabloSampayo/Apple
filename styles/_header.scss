@@ -1,3 +1,21 @@
-.menu{
+header{
+    background-color:$primary-color ;
     font-family: $primary-font;
+    font-size: 24px;
+
+    & img{
+        width: 25px;
+        height: auto;
+    }
+    & ul{
+        text-transform: capitalize;
+    }
+    & li a{
+        
+        text-decoration: none;
+        color: $secondary-color;
+   & .menu{
+    font-family: $primary-font;
+   }
+    }
 }

@@ -10,7 +10,27 @@
   padding: 0;
 }
 
-.menu {
+header {
+  background-color: #2F2F2F;
+  font-family: "SF Pro Text";
+  font-size: 24px;
+}
+
+header img {
+  width: 25px;
+  height: auto;
+}
+
+header ul {
+  text-transform: capitalize;
+}
+
+header li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+header li a .menu {
   font-family: "SF Pro Text";
 }
 /*# sourceMappingURL=main.css.map */
