@@ -1,0 +1,29 @@
+@media screen and (min-width:720px){
+/*Sección Visión*/    
+    .vision{
+        display: flex;
+        justify-content: space-between;
+        margin: 2vh 2.5vw;
+        .texto{
+            width: 50%;
+            margin-left: 5vw;
+            margin-top: 2vh;
+            text-align: center;
+        }
+
+        /*slider*/
+        .slider{
+            width: 50%;
+            margin-left: 20vw;
+        }
+    }
+}
+
+@media screen and (min-width:1200px){
+    /*Sección Visión*/    
+        .vision{
+            .texto{
+                margin-top: 10vh;
+            }
+        }
+    }
