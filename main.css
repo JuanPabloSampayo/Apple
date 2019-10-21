@@ -22,19 +22,36 @@ header {
     header li a .menu {
       font-family: "SF Pro Text"; }
 
-form {
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 10px;
   background-color: #2F2F2F;
-  width: 20%; }
-  form div input {
-    display: flexbox;
-    margin: 10px;
-    background-color: #FBF4F3;
+  width: 100vw; }
+  .formulario h2 {
+    color: #FBF4F3;
     font-family: "SF Pro Text";
-    font-size: 18px;
-    color: #2F2F2F; }
+    font-size: 40px;
+    margin: 5%; }
+  .formulario h3 {
+    color: #FBF4F3;
+    font-family: "SF Pro Text";
+    font-size: 25px;
+    margin: 3%; }
+  .formulario form {
+    align-items: center;
+    display: flex;
+    color: #FBF4F3; }
+    .formulario form div input {
+      display: flex;
+      margin: 10px;
+      background-color: #FBF4F3;
+      font-family: "SF Pro Text";
+      font-size: 18px;
+      color: #2F2F2F; }
 
-.textarea {
-  height: 100px; }
+.email {
+  width: 40vw; }
 
 /*# sourceMappingURL=main.css.map */
