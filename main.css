@@ -25,9 +25,11 @@ header {
 form {
   margin: 10px;
   background-color: #2F2F2F;
-  width: 20%; }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw; }
   form div input {
-    display: flexbox;
     margin: 10px;
     background-color: #FBF4F3;
     font-family: "SF Pro Text";
