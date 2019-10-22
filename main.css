@@ -1,15 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|IBM+Plex+Sans+Condensed|IBM+Plex+Serif&display=swap");
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("./assets/fonts/SF-UI-Text-Regular.otf");
-  font-family: "SF Pro Text Light";
-  src: url("./assets/fonts/SF-UI-Display-Ultralight.otf");
-}
 * {
   margin: 0;
   padding: 0;
-  font-family: "SF Pro Text";
 }
 
 * {
@@ -80,6 +73,10 @@
   transition: max-height .2s ease-out;
 }
 
+.btn--buy {
+  display: none;
+}
+
 /* menu icon */
 .header .menu-icon {
   cursor: pointer;
@@ -140,26 +137,89 @@
   top: 0;
 }
 
-/* 48em = 768px */
-@media (min-width: 48em) {
+@media screen and (min-width: 1024px) {
   .header li {
     float: left;
   }
-
   .header li a {
     padding: 20px 30px;
   }
-
+  .btn--buy {
+    background-color: #2189db;
+    background: -webkit-gradient(linear, left top, left bottom, from(#42a1ec), to(#0070c9));
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: normal;
+    padding: 3px 10px;
+    border: 1px solid #07c;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(28, 115, 184, 0.64);
+    white-space: nowrap;
+    text-decoration: none;
+  }
   .header .menu {
     clear: none;
     float: right;
     max-height: none;
   }
-
   .header .menu-icon {
     display: none;
   }
+  .header .logo {
+    padding: 20px 28px;
+  }
+  .header .bag {
+    display: none;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 20px;
+    position: relative;
+    margin-top: 0px;
+    max-height: 44px;
+    -webkit-transition: max-height .2s ease-out;
+    transition: max-height .2s ease-out;
+  }
+  .header li a {
+    padding: 0px 0px;
+    border-bottom: none;
+  }
 }
+
 .hero {
   height: 100px;
 }
@@ -177,14 +237,17 @@
   background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .vision .texto {
   margin: 10px 15px;
   padding-top: 20px;
 }
+
 .vision .texto h2 {
   color: #F4F4F4;
   margin-bottom: 10px;
 }
+
 .vision .texto p {
   color: #2F2F2F;
 }
@@ -195,6 +258,7 @@
   margin: auto;
   overflow: hidden;
 }
+
 .slider ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,14 +271,17 @@
   -webkit-animation: cambio 20s infinite alternate linear;
           animation: cambio 20s infinite alternate linear;
 }
+
 .slider ul li {
   list-style: none;
   width: 100%;
   text-align: center;
 }
+
 .slider ul li img {
   width: 50%;
 }
+
 .slider ul li #img2 {
   width: 35%;
 }
@@ -272,6 +339,7 @@
     margin-left: -300%;
   }
 }
+
 .formulario {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -286,18 +354,21 @@
   background-color: #2F2F2F;
   width: 100%;
 }
+
 .formulario h2 {
   color: #FBF4F3;
   font-family: "SF Pro Text";
   font-size: 40px;
   margin: 5%;
 }
+
 .formulario h3 {
   color: #FBF4F3;
   font-family: "SF Pro Text";
   font-size: 25px;
   margin: 3%;
 }
+
 .formulario form {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -307,6 +378,7 @@
   display: flex;
   color: #FBF4F3;
 }
+
 .formulario form div input {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,11 +416,11 @@
     margin-left: 20vw;
   }
 }
+
 @media screen and (min-width: 1200px) {
   /*Sección Visión*/
   .vision .texto {
     margin-top: 10vh;
   }
 }
-
 /*# sourceMappingURL=main.css.map */
