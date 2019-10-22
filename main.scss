@@ -5,8 +5,9 @@
     src: url("./assets/fonts/SF-UI-Display-Ultralight.otf")
 }
 
-@import "./styles/normalize";
+
 @import "./styles/variables";
+@import "./styles/normalize";
 @import "./styles/header";
 @import "./styles/form";
 @import './styles/section-vision';
