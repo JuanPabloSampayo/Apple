@@ -1,3 +1,8 @@
 .hero{
-    height: 100px;
+    padding-top: calc(#{$header--height} + 10px);
+    height: 380px;
+    background-image: url(./assets/iphone-cases-accessories-201909.jpg);
+}
+.hero h1{
+    margin:150px 50px;
 }
