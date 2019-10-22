@@ -13,14 +13,16 @@
     <header class="header">
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-      <img class= "logo" src="./logo.svg" alt="">
-      <img class= "bag" src="./bag.svg" alt="" srcset="">
+      <a href="#home">
+        <img class= "logo" src="./assets/apple-logo.svg" alt="">
+    </a>
+      <img class= "bag" src="./assets/bag.svg" alt="" srcset="">
       <ul class="menu">
         <li><a href="#home">Home</a></li>
-        <li><a href="#">Vision</a></li>
-        <li><a href="#">Desing</a></li>
-        <li><a href="#">Suscribe</a></li>
-        <li><a href="#">Buy</a></li>
+        <li><a href="#Vision">Vision</a></li>
+        <li><a href="#Desing">Desing</a></li>
+        <li><a href="#suscribe">Suscribe</a></li>
+        <li><a href="#Buy">Buy</a></li>
       </ul>
     </header>
     <section class="hero" id="home">
@@ -54,19 +56,19 @@
         <img src="./assets/icons/icon-waterproof.jpg" alt="Waterproof">
         </div>
     </section>
-    <section class="formulario">
+    <section id="suscribe" class="formulario">
         <h2>Dejanos tu consulta</h2>
-        <i> <h3>Dejanos tu correo electronico y suscribite a las ultimas novedades</h3></i>
+        <h3>Dejanos tu correo electronico y suscribite a las ultimas novedades</h3>
         <form action="">
 
             <div><input class="email" type="email" name="email" id="email" placeholder="Ingresa tu email"></div>
             <div><input type="button" value="Suscribirse"></div>
         </form>
-
     </section>
     <footer>
 
     </footer>
 </body>
+<script> const toggleInput = document.getElementById('toggle'); document.querySelector('.menu').addEventListener('click', () => { if (toggleInput.checked) { toggleInput.checked = false; } }) </script>
 
 </html>
