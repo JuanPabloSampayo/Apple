@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|IBM+Plex+Sans+Condensed|IBM+Plex+Serif&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -456,6 +455,27 @@ html {
   /*Sección Visión*/
   .vision .texto {
     margin-top: 10vh;
+  }
+}
+
+.desing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  font-family: "SF Pro Text";
+  text-align: center;
+}
+
+@media screen and (min-width: 490px) {
+  .desing {
+    display: block;
   }
 }
 /*# sourceMappingURL=main.css.map */
