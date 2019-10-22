@@ -1,0 +1,15 @@
+.desing{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: $primary-font;
+    text-align: center;
+
+}
+
+@media screen and(min-width:490px){
+.desing{
+    display: block;
+}
+}
