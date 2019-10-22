@@ -1,8 +1,23 @@
 .hero{
     padding-top: calc(#{$header--height} + 10px);
-    height: 380px;
-    background-image: url(./assets/iphone-cases-accessories-201909.jpg);
+    background-color: #F7F7F7;
+    display: flex;
+    flex-wrap: wrap;
+    & h1{
+        padding: 30px 50px;
+    }
+    & img{
+        width: 100%;
+    }
 }
-.hero h1{
-    margin:150px 50px;
+@media screen and (min-width: 768px){
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    & img{
+        height: 334px;
+        width: 568px;
+    }
+}
 }

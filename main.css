@@ -227,19 +227,43 @@ html {
 
 .hero {
   padding-top: calc(44px + 10px);
-  height: 380px;
-  background-image: url(./assets/iphone-cases-accessories-201909.jpg);
+  background-color: #F7F7F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .hero h1 {
-  margin: 150px 50px;
+  padding: 30px 50px;
+}
+
+.hero img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .hero img {
+    height: 334px;
+    width: 568px;
+  }
 }
 
 /* sección visión */
 /*Sección Visión*/
 .vision {
   width: 100%;
-  margin-top: 10px;
   margin-bottom: 10px;
   background: #C6FFDD;
   /* fallback for old browsers */
