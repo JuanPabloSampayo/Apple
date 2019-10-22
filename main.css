@@ -160,60 +160,16 @@
     display: none;
   }
 }
-.formulario {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #2F2F2F;
-  width: 100vw;
-}
-.formulario h2 {
-  color: #FBF4F3;
-  font-family: "SF Pro Text";
-  font-size: 40px;
-  margin: 5%;
-}
-.formulario h3 {
-  color: #FBF4F3;
-  font-family: "SF Pro Text";
-  font-size: 25px;
-  margin: 3%;
-}
-.formulario form {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #FBF4F3;
-}
-.formulario form div input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 10px;
-  background-color: #FBF4F3;
-  font-family: "SF Pro Text";
-  font-size: 18px;
-  color: #2F2F2F;
-}
-
-.email {
-  width: 40vw;
+.hero {
+  height: 100px;
 }
 
 /* sección visión */
 /*Sección Visión*/
 .vision {
-  margin-top: 10px 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background: #C6FFDD;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
@@ -222,11 +178,15 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .vision .texto {
-  margin: 10px 10px;
-  padding-top: 10px;
+  margin: 10px 15px;
+  padding-top: 20px;
 }
 .vision .texto h2 {
   color: #F4F4F4;
+  margin-bottom: 10px;
+}
+.vision .texto p {
+  color: #2F2F2F;
 }
 
 /*slider*/
@@ -312,6 +272,56 @@
     margin-left: -300%;
   }
 }
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2F2F2F;
+  width: 100%;
+}
+.formulario h2 {
+  color: #FBF4F3;
+  font-family: "SF Pro Text";
+  font-size: 40px;
+  margin: 5%;
+}
+.formulario h3 {
+  color: #FBF4F3;
+  font-family: "SF Pro Text";
+  font-size: 25px;
+  margin: 3%;
+}
+.formulario form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FBF4F3;
+}
+.formulario form div input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  background-color: #FBF4F3;
+  font-family: "SF Pro Text";
+  font-size: 18px;
+  color: #2F2F2F;
+}
+
+.email {
+  width: 40vw;
+}
+
 @media screen and (min-width: 720px) {
   /*Sección Visión*/
   .vision {
