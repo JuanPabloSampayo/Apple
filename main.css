@@ -307,6 +307,9 @@ h1 {
 
 @media screen and (min-width: 490px) {
   .desing {
-    display: block; } }
+    text-align: center;
+    display: block;
+    /* justify-items: center;
+    flex-wrap: wrap; */ } }
 
 /*# sourceMappingURL=main.css.map */
